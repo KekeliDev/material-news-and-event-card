@@ -1,0 +1,175 @@
+
+
+.news-event{
+    margin: auto;
+    padding: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+   
+}
+.news-event .news-section{
+    border-radius: 10px;
+    height: 100%;
+    width: 48%;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, 
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.news-event .news-section hr{
+    margin-left: 0px;    
+    width: 7%;
+    height: 2px;
+    border: none;
+    background: #111;
+}
+
+.news-event .events-section{
+    display: flex;
+    border-radius: 10px;
+    max-width: auto;
+    height: 100%;
+    width: 48%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, 
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.news-event .news-section .news-contents,
+.news-event .events-section .events-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: auto;
+    height: 100%;
+    width: 85%;
+}
+.news-event .news-section .news-contents span h2,
+.news-event .events-section .events-content span h2{
+    margin: 5px 0;
+    color: #333;
+    font-weight: 700;   
+    width: 90%;
+}
+.news-event .events-section .events-content hr{
+    margin-left: 0px;    
+    width: 7%;
+    height: 2px;
+    border: none;
+    background: #111;
+}
+.news-event .events-section .events-content .event-items{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    height: 100%;
+    width: 100%;
+
+}
+.news-event .news-section .news-contents .news-items{
+    margin-top: 15px;
+}
+.news-event .events-section .events-content .event-item-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.news-event .news-section .news-contents .news-item{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+.news-event .events-section .events-content .event-item{
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.news-event .news-section .news-contents .news-item .news-date{
+   font-weight: 200;
+   color: #666;
+}
+.news-event .events-section .events-content .event-item .event-date{
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(235, 103, 224);
+    height: 70px;
+    width: 180px;
+}
+.news-event .events-section .events-content .event-item .event-date .event-date-day{
+ justify-content: space-between;
+ align-items: center;
+ color: #fff;
+ font-size: 32px;
+ font-weight: bold;
+}
+.news-event .events-section .events-content .event-item .event-date .event-date-month-year{
+ justify-content: space-between;
+ align-items: center;
+ color: #fff;
+ font-size: 20px;
+ font-weight: 500;
+}
+.news-event .news-section .news-contents .news-item .news-title a,
+.news-event .events-section .events-content .event-item .event-title a{
+   text-decoration: none;
+}
+.news-event .news-section .news-contents .news-item .news-title h3{
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 200;
+    color: #333;
+}
+.news-event .events-section .events-content .event-item .event-title h3{
+    margin: 0;
+    font-weight: 900;
+    color: #555;
+}
+.news-event .events-section .events-content .event-item .event-item-content .event-excerpt{
+    margin-top: 5px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+    .news-event .news-section .news-contents{
+        
+    }
+   
+.news-event{
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.news-event .news-section{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, 
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.news-event .events-section{
+    display: flex;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, 
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+  }

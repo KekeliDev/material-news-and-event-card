@@ -1,0 +1,1 @@
+This is a material design approach to creating a news card and event card  for instituition or organisation website. 
